@@ -1,5 +1,6 @@
 {
 	"private": true,
+	"packageManager": "pnpm@8.6.10",
 	"scripts": {
 		"build": "tsc -b tsconfig.build.json",
 		"build-ci": "tsc -b tsconfig.build-ci.json",

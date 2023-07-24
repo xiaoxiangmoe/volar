@@ -16,8 +16,8 @@ jobs:
           node-version: 18
 
       # install deps
-      - run: npm i -g pnpm
-      - run: pnpm i
+      - run: corepack enable pnpm
+      - run: pnpm install --frozen-lockfile
 
       # update data
       - name: Update HTML Data
